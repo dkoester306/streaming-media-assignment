@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "Streaming media assignment for 430 web class 2020",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Tests complete\"",
+    "pretest": "eslint ./src --fix",
+    "start": "node ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dkoester306/streaming-media-assignment.git"
+  },
+  "author": "Daniel Koester",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dkoester306/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/dkoester306/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.20.1"
+  }
+}
