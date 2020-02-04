@@ -8,10 +8,6 @@
     "pretest": "eslint ./src --fix",
     "start": "node ./src/server.js"
   },
-  "engines": {
-    "node": "12.14.1",
-    "npm": "6.9.0"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dkoester306/streaming-media-assignment.git"

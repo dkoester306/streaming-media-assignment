@@ -2,6 +2,8 @@ const fs = require('fs'); // pull the file system module into program
 
 const path = require('path');
 
+
+
 const getChunk = (response, contentType, start, end, total) => {
   const chunkSize = (end - start) + 1;
 
@@ -13,7 +15,6 @@ const getChunk = (response, contentType, start, end, total) => {
 
   });
 };
-
 
 const getStreamFile = (response, file, start, end) => {
   const stream = fs.createReadStream(file, { start, end });
